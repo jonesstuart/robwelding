@@ -1,0 +1,139 @@
+html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+body {
+	background-color: white;
+	color: #242424;
+}
+
+/* Header */
+
+header {
+	display: block;
+	margin: 2rem auto;
+	text-align: center;
+}
+
+/* Brand & Logo */
+h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+/* Hero Zone */
+
+#hero {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 460px;
+	background: rgb(4, 0, 125);
+	background: linear-gradient(180deg, rgba(4, 0, 125,1) 0%, rgb(2, 0, 55) 100%);
+	margin-bottom: 3rem;
+}
+
+#welcome_container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+	flex-flow: column;
+}
+
+#hi {
+	text-align: center;
+	font-size: 3rem;
+	color: #ffffff;
+}
+
+img {
+	width: 100px;
+}
+
+#cta_top {
+	width: 80%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #ffffff;
+	background-color: #242424;
+	transform: translateY(50%);
+	padding: 1rem;
+	margin: 0 auto;
+	border-radius: 24px;
+	text-decoration: none;
+
+}
+
+/* Adjust this to ensure footer is not overlapped */
+
+#spacer {
+	height: 30px;
+}
+
+/*Footer Space*/
+
+#tailbar {
+	font-family: 'Noto', sans-serif;
+	display: flex;
+	padding: 0.25rem 0.5rem;
+	margin: 0.5rem 1rem;
+	font-size: 0.7rem;
+	font-weight: 400;
+	align-items: center;
+	border-top: 1px solid #999;
+}
+
+#copyright
+{
+	text-align: right;
+	width: 100%;
+}
+
+#js {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/* Tablet Portait Display */
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (min-width:480px) and (max-width: 768px) {
+}
+
+/* Mobile Display */
+@media only screen and (max-width: 480px) {
+	header {
+		justify-content: center;
+	}
+
+	#hi {
+		font-size: 4rem;
+	}
+
+	#tailbar {
+	  flex-flow: column;
+	}
+	#copyright {
+	  text-align: center;
+	  margin-top: 1rem;
+	}
+  }
+
+/* HD Display */
+@media only screen and (max-width: 1024px) {
+}
+
+/* UHD Display */
+@media only screen and (min-width: 1600px) {
+}
